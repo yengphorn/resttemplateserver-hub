@@ -8,7 +8,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: resttemplateserver-hub
+      app: resttemplateserver-hub #
   template:
     metadata:
       labels:
